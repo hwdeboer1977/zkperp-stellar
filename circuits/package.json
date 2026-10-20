@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "ZKPerp Circom circuits, trusted setup and proving scripts",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "17.2.0",
+    "circomlib": "2.0.5",
+    "circomlibjs": "0.1.7",
+    "snarkjs": "0.7.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Regenerates ../src/constants.rs and ../src/vectors.json (zkperp-poseidon) from circomlibjs",
+  "scripts": {
+    "gen": "node gen.mjs ../src/constants.rs ../src/vectors.json"
+  },
+  "dependencies": {
+    "circomlibjs": "0.1.7"
+  }
+}

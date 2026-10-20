@@ -1,0 +1,19 @@
+# Rust's output directory
+target
+
+# Local settings
+.soroban
+.stellar
+node_modules/
+
+# Contracts
+contracts/
+# Local environment (may contain a private RPC URL); see .env.example
+.env
+
+# ZKPerp local state: position records hold secrets (owner secret, salt),
+# and the keeper view key is the keepers' private key
+.zkperp/
+
+# Circuit build output (keys/ holds the proving key and is kept)
+circuits/build/

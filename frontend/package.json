@@ -1,0 +1,32 @@
+{
+  "name": "zkperp-soroban-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ZKPerp on Soroban in the browser: trade privately, provide liquidity, see what is public",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "dev": "npm run sync && vite",
+    "build": "npm run sync && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stellar/freighter-api": "6.0.1",
+    "@stellar/stellar-sdk": "17.2.0",
+    "buffer": "6.0.3",
+    "circomlibjs": "0.1.7",
+    "lightweight-charts": "5.2.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-router-dom": "7.18.4",
+    "snarkjs": "0.7.5"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vite-plugin-node-polyfills": "0.27.0"
+  }
+}
