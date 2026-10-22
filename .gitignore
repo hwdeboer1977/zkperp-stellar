@@ -6,8 +6,7 @@ target
 .stellar
 node_modules/
 
-# Contracts
-contracts/
+
 # Local environment (may contain a private RPC URL); see .env.example
 .env
 
